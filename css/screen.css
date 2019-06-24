@@ -3,12 +3,12 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  margin: 0px;
-  margin-top: 200px;
-  margin-bottom: 60px;
-  background: #282c34 url("../img/bg_pattern.png");
+  font-size: 24px;
+  line-height: 1.8;
+  margin-top: 160px;
+  background: #e44d63 url("../img/bg_pattern.png");
   background-size: 8%;
-  min-width: 800px;
+  min-width: 960px;
 }
 div#wrapper {
   width: 100%;
@@ -19,54 +19,51 @@ div#wrapper {
 /* Header */
 
 .headerContainer {
-  width: 800px;
+  width: 960px;
   margin: 0 auto;
   padding-bottom: 20px;
 }
 .headerContainer h2 {
-  color: #e44d63;
-  font-weight: 100;
-  font-size: 60px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+  color: #ffffff;
+  font-size: 72px;
+  font-family: "Averia Serif Libre";
+  letter-spacing: -5px;
   text-align: center;
   margin: 0;
 }
 .headerContainer h3 {
   font-weight: 300;
-  color: #939599;
+  color: #984050;
   text-align: center;
+  margin: 0;
+  margin-bottom: 32px;
 }
 
 /* Content */
 
 .contentContainer {
-  width: 800px;
+  width: 960px;
   margin: 0 auto;
 }
 .contentContainer p {
   text-align: center;
-  width: 640px;
+  width: 960px;
   margin: 0 auto;
-  color: #939599;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 38px;
+  color: #984050;
   margin-bottom: 40px;
 }
 .contentContainer p a {
-  color: #939599;
+  color: #984050;
   text-decoration: none;
-  border-bottom: dotted 1px #939599;
-  background: #282c34;
+  border-bottom: dotted 1px #ffffff;
 }
 .contentContainer p a:hover {
-  color: #e44d63;
-  border-bottom: dotted 1px #e44d63;
+  color: #ffffff;
+  border-bottom: dotted 1px #ffffff;
 }
 .contentContainer h2 {
   width: 100%;
-  color: #939599;
+  color: #984050;
   font-weight: 300;
   font-size: 18px;
   text-align: center;
@@ -76,16 +73,15 @@ div#wrapper {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #666;
+  color: #984050;
   text-align: center;
 }
 .linksWrapper {
-  width: 800px;
+  width: 960px;
   text-align: center;
 }
 .contentContainer ul {
   font-size: 18px;
-  font-weight: 300;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -96,12 +92,12 @@ div#wrapper {
 }
 .contentContainer ul li a {
   display: block;
-  color: #939599;
-  border-bottom: dotted 1px #939599;
+  color: #984050;
+  border-bottom: dotted 1px #ffffff;
   text-decoration: none;
 }
 .contentContainer ul li a:hover {
-  color: #e44d63;
-  border-bottom: dotted 1px #e44d63;
+  color: #ffffff;
+  border-bottom: dotted 1px #ffffff;
   text-decoration: none;
 }
