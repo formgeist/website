@@ -6,8 +6,12 @@ body {
   font-size: 24px;
   line-height: 1.8;
   margin-top: 160px;
-  background: #e44d63 url("../img/bg_pattern.png");
-  background-size: 8%;
+  background: #191725;
+  background-image: url("../img/bg_pattern.png");
+  background-blend-mode: multiply;
+  background-position-x: -120px;
+  background-position-y: -120px;
+  background-size: 20%;
   min-width: 960px;
 }
 div#wrapper {
@@ -24,16 +28,15 @@ div#wrapper {
   padding-bottom: 20px;
 }
 .headerContainer h2 {
-  color: #ffffff;
-  font-size: 72px;
+  color: #fd6592;
+  font-size: 128px;
   font-family: "Averia Serif Libre";
-  letter-spacing: -5px;
   text-align: center;
   margin: 0;
 }
 .headerContainer h3 {
   font-weight: 300;
-  color: #984050;
+  color: #d5c3e6;
   text-align: center;
   margin: 0;
   margin-bottom: 32px;
@@ -49,21 +52,21 @@ div#wrapper {
   text-align: center;
   width: 960px;
   margin: 0 auto;
-  color: #984050;
+  color: #d5c3e6;
   margin-bottom: 40px;
 }
 .contentContainer p a {
-  color: #984050;
+  color: #fd6592;
   text-decoration: none;
-  border-bottom: dotted 1px #ffffff;
+  border-bottom: dotted 1px #fd6592;
 }
 .contentContainer p a:hover {
-  color: #ffffff;
-  border-bottom: dotted 1px #ffffff;
+  color: #fd6592;
+  border-bottom: solid 1px #fd6592;
 }
 .contentContainer h2 {
   width: 100%;
-  color: #984050;
+  color: #caa6ec;
   font-weight: 300;
   font-size: 18px;
   text-align: center;
@@ -73,7 +76,7 @@ div#wrapper {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #984050;
+  color: #caa6ec;
   text-align: center;
 }
 .linksWrapper {
@@ -92,12 +95,12 @@ div#wrapper {
 }
 .contentContainer ul li a {
   display: block;
-  color: #984050;
-  border-bottom: dotted 1px #ffffff;
+  color: #fd6592;
+  border-bottom: dotted 1px #fd6592;
   text-decoration: none;
 }
 .contentContainer ul li a:hover {
-  color: #ffffff;
-  border-bottom: dotted 1px #ffffff;
+  color: #fd6592;
+  border-bottom: solid 1px #fd6592;
   text-decoration: none;
 }
